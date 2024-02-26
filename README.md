@@ -9,11 +9,6 @@ This is a working Ionic payment module for Razer Merchant Services that can be a
 Ionic's RMS Mobile Payment
 
 
-![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmxsNG9xNmU4MGo2YnhmcHNqZzh6MHA3Z2hjdDZjMDQ5a2ZqdGV4bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UpzS59GnsjU6nkMfbS/giphy.gif)
-
-
-
-
 ## How does it work ? 
 
 
