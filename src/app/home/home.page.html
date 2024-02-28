@@ -1,53 +1,54 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>RMS XDK Example </ion-title>
+    <ion-title class="ion-text-wrap">Welcome to XDK Ionic Capacitor</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-card>
+
+
+<ion-content [fullscreen]="true" scroll-y = "false">
+
+<div style="position: absolute; top: 80px; left: 0; right: 0; margin-top: 100px;">
+  <ion-card >
     <ion-card-content>
       <ion-list>
         <ion-item>
-          <ion-label position="stacked">Order ID</ion-label>
-          <ion-text>
-            Order ID
-          </ion-text>
+          <ion-label >Order ID</ion-label>
+          <ion-text slot="end">1234213</ion-text>
         </ion-item>
         <ion-item>
-          <ion-label position="stacked">Bill Name</ion-label>
-          <ion-text>
-            Order ID
-          </ion-text>
+          <ion-label >Bill Name</ion-label>
+          <ion-text slot="end">John Doe</ion-text>
         </ion-item>
         <ion-item>
-          <ion-label position="stacked">Country</ion-label>
-          <ion-text>
-            Order ID
-          </ion-text>
+          <ion-label >Country</ion-label>
+          <ion-text slot="end">Malaysia</ion-text>
         </ion-item>
         <ion-item>
-          <ion-label position="stacked">Currency</ion-label>
-          <ion-text>
-            Order ID
-          </ion-text>
+          <ion-label >Currency</ion-label>
+          <ion-text slot="end">MYR</ion-text>
         </ion-item>
         <ion-item>
-          <ion-label position="stacked">Mobile</ion-label>
-          <ion-text>Order ID</ion-text>
+          <ion-label>Mobile</ion-label>
+          <ion-text slot="end">1.01</ion-text>
         </ion-item>
       </ion-list>
     </ion-card-content>
   </ion-card>
-</ion-content>
+  
+
+<!-- <div style=" text-items: center; margin-top: 20px;">
+  <ion-button expand="block" shape="round" (click)="toggleMolpay()">Proceed to payment</ion-button>
+</div>
+<div id="molpay" class="molpay" [hidden]="!molpayVisible" style="position: absolute; top: 44px; bottom: 0px">
+
+</div> -->
+<div style="position: fixed; bottom: 0; width: 100%; text-align: center;">
+  <ion-button shape="round" (click)="openNewPage()">Proceed to payment</ion-button>
+</div>
+</div>
+  </ion-content>
 
 
-<!-- <ion-content [fullscreen]="true">
-  <div class="app">
-    <div
-      id="molpay"
-      class="molpay"
-      style="position: absolute; top: 130px; bottom: 0px"
-    ></div>
-    <script src=""></script></div
-></ion-content> -->
+
+  

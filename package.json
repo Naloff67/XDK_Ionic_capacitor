@@ -1,5 +1,5 @@
 {
-  "name": "ionic_capacitor_blank",
+  "name": "XDK_ionic_capcitor",
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
@@ -31,7 +31,7 @@
     "@capacitor/status-bar": "5.0.6",
     "@ionic/angular": "^7.5.0",
     "cordova-plugin-inappbrowser": "^6.0.0",
-    "ionic": "^5.4.16",
+    "ionic": "^4.1.2",
     "ionicons": "^7.2.1",
     "molpay-mobile-xdk-cordova": "^3.32.0",
     "node": "^21.6.1",
@@ -66,7 +66,9 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "ts-node": "^8.3.0",
-    "typescript": "~5.2.2"
+    "typescript": "~5.2.2",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
   },
   "description": "An Ionic project"
 }
