@@ -11,6 +11,7 @@ Ionic's RMS Mobile Payment
 
 ## How does it work ? 
 
+![image](https://github.com/Naloff67/XDK_Ionic_capacitor/assets/89504625/7a8397b3-6579-4a79-a1b6-91735f57ed2e)
 
  1. User chooses the Payment option/Bank they wish to pay with 
  2. Press "Proceed".
